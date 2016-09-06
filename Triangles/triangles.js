@@ -18,6 +18,16 @@ window.onload = function init()
     //
     //(red, green, blue) values for all of the vertices
     var colors = [
+        //background
+        
+        vec3(0.89, 0.949, 0.992),
+        vec3(0.89, 0.949, 0.992),
+        vec3(0.733, 0.871, 0.984),
+
+        vec3(0.89, 0.949, 0.992),
+        vec3(0.89, 0.949, 0.992),
+        vec3(0.89, 0.949, 0.992),
+
         //Right Face
         //1st
         vec3(0.961, 0.486, 0),
@@ -91,6 +101,8 @@ window.onload = function init()
         vec3(0.0, 0.0, 0.0),
         vec3(0.0, 0.0, 0.0),
         vec3(0.0, 0.0, 0.0),
+
+        
 /*
         //Moustache
         //Right Face
@@ -123,6 +135,15 @@ window.onload = function init()
 
     // And, add our vertices point into our array of points
     points = [
+        //background
+        vec2( 2, 2 ), //triangle 
+        vec2( -2, -2 ),  
+        vec2( 2, -2 ),
+
+        vec2( -2, 2 ), //triangle 
+        vec2( 2, 2 ),  
+        vec2( -2, -2 ),
+
         //Right Face
         vec2( 0, 0 ), //triangle 
         vec2( 0, -1 ),    
@@ -195,6 +216,8 @@ window.onload = function init()
         vec2( 0, -1 ), //triangle 
         vec2( 0.2, -0.8 ),  
         vec2( -0.2, -0.8 ),
+
+        
 
 /* Ugly
         //Moustache
